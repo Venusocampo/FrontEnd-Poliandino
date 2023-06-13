@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+        <center><h2>INFORMACIÓN PERSONAL</h2></center>
+        <form action="">
+            <fieldset>
+                <legend>Ingrese aquí su información</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Tu nombre aquí" required>
+                </div>
+                <div>
+                    <label for="id">Identificación</label>
+                    <input type="number" placeholder="Tu ID aquí" required>
+                </div>
+                <div>
+                    <label for="celular">Celular</label>
+                    <input type="number" placeholder="Tu celular aquí" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" placeholder="Tu teléfono aquí" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" placeholder="Tu correo aquí" required>
+                </div>
+                <div>
+                    <label for="genero">Género</label>
+                    <input type="radio" name="genero">Masculino
+                    <input type="radio" name="genero">Femenino
+                    <input type="radio" name="genero">Otro
+                    <input type="text" placeholder="Escribe cuál otro aquí"
+                </div>
+                <div>
+                    <label for="nacimiento">Lugar de Nacimiento</label>
+                    <select required>
+                        <option value="abejorral">Abejorral</option>
+                        <option value="andes">Andes</option>
+                        <option value="bello">Bello</option>
+                        <option value="caldas">Caldas</option>
+                        <option value="ciudadbolivar">Ciudad Bolívar</option>
+                        <option value="envigado">Envigado</option>
+                        <option value="fredonia">Fredonia</option>
+                        <option value="guadalupe">Guadalupe</option>
+                        <option value="guarne">Guarne</option>
+                        <option value="itagui">Itaguí</option>
+                        <option value="jardin">Jardín</option>
+                        <option value="medellin">Medellín</option>
+                        <option value="sabaneta">Sabaneta</option>
+                        <option value="sanjeronimo">San Jerónimo</option>
+                        <option value="tamesis">Támesis</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ciudades">Ciudades que ha visitado</label><br>
+                    <input type="checkbox">Buenos Aires, Argentina<br>
+                    <input type="checkbox">Miami, USA<br>
+                    <input type="checkbox">Río de Janeiro, Brasil<br>
+                    <input type="checkbox">New York, USA<br>
+                    <input type="checkbox">Venecia, Italia<br>
+                    <input type="checkbox">Madrid, España<br>
+                    <input type="checkbox">París, Francia<br>
+                    <input type="checkbox">Berlín, Alemania<br>
+                    <input type="checkbox">Tokio, Japón<br>
+                    <input type="checkbox">Oslo, Noruega<br>
+                </div><br>
+                <div>
+                    <input type="reset" value="Limpiar">
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

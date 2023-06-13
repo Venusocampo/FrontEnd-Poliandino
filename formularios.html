@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+<!-- se declara un formulario con la etiqueta form y sus principales atributos son:
+        action: que es para especificar a donde van los
+        method: para especificar el método de envío.-->
+    <form action="" method="">
+<!-- Label: nos sirve para desplegar un texto referente a una etiqueta
+        Input: para capturar datos-->
+        <label>ID</label>
+        <input type="number" placeholder="Aquí va tu cédula" required> <br>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required> <br>
+        <label>Apellidos</label> 
+        <input type="text" maxlength="15" required> <br>
+        <label for="">Ingresa el código</label>
+        <input type="password"> <br>
+        <label for="">Ingresa un correo</label>
+        <input type="email"> <br>
+        <label for="">Escoja una opción</label>
+        <input type="checkbox"> Opción 1 <br>
+        <input type="checkbox"> Opción 2 <br>
+        <input type="checkbox"> Opción 3 <br>
+        <label>Género:</label> <br>
+        <input type="radio" name="genero">Masculino <br>
+        <input type="radio" name="genero">Femenino <br>
+        <input type="radio" name="genero">Otro <br>
+        <label for="">Escoja la siguiente opción</label>
+        <select name="" id="">
+            <option value="">Frutas</option>
+            <option value="">Verduras</option>
+            <option value="">Frutos secos</option>
+            <option value="">otras</option>
+        </select> <br>
+        <textarea name="" id="" placeholder="Escribe cuál otro"></textarea><br>
+        <label>Fecha de nacimiento</label><br>
+        <input type="date"> <br>
+        <label for="">Escoja un color</label><br>
+        <input type="color"><br>
+        <label for="">Ingrese la hora</label><br>
+        <input type="time"><br>
+        <input type="file"><br>
+        <label>Ocupación</label>
+        <input type="checkbox">Estudiante
+        <input type="checkbox">Trabajador
+        <input type="checkbox">Desempleado <br>
+        <input type="reset"><input type="submit">
+    </form>
+</body>
+</html>

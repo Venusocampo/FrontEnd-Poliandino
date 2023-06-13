@@ -1,0 +1,65 @@
+/* Selector: es el elemento que vamos a aplicarle el estilo
+Propiedad; lo que vamos a cambiar
+Valor: el nuevo valor que vamos a dar a la propiedad
+Propiedad: vamos: se le denomina declaración
+Al conjunto: se le denomina regla
+Selectores simples
+    Selectores elementales
+        Selector universal ->*
+        Selector tipo etiqueta
+    Selectores de atributoa
+        tipo id: es un elemento único así que no es muy usado -> #
+        tipo class: se reutiliza ya que puede usarse en varios elementos -> .
+        Otros atributos 
+            [atributo]
+            [atributo="valor"]
+            [atributo^=valor]
+Selectores compuestos
+    Selectores agrupados
+    Selectores combinadores
+        Selector descendiente
+        Selector hermano siguiente 
+    Pseudoclases - Pseudo elementos
+ 
+body{
+    background-color: whitesmoke
+}
+h1{
+    color: rgb(64, 165, 224);
+} 
+.parrafo1{
+    background-color: yellow;
+}
+.parrafo2{
+    background-color:aqua;
+}
+[href]{
+    background-color: cadetblue;
+}
+[href="www.youtube.com"]{
+    background-color: crimson;
+}
+.parrafo1{
+    background-color: darkblue;
+}
+.parrafo2{
+    background-color: darkblue;
+}
+.parrafo3{
+    background-color: darkblue;
+}
+.parrafo4{
+    background-color: darkblue;
+}
+.parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    background-color: darkgreen;
+}
+div .titulo2{
+    background-color: red;
+}
+.parrafo1 + h2{
+    background-color: salmon;
+}
+.titulo ~ p{
+    background-color: slateblue;
+}*/

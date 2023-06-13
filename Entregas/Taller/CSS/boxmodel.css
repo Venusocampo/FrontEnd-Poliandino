@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.caja{
+    margin:100px auto;
+    padding: 50px;
+    background-color: cornflowerblue;
+    width: 250px;
+    height: 250px;
+    border-left: 20px groove gray;
+    border-right: 20px double white;
+    border-top: 20px dotted blue;
+    border-bottom: 20px solid rgba(17, 216, 206, 0.836);
+    border-radius: 50px;
+}
+p{
+    font: 20px arial;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(243, 245, 250);
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+    color: rgb(55, 138, 233);
+}
+h2{
+    color: rgb(55, 138, 233);
+}
+p, li{
+    color: darkslategray;
+}
